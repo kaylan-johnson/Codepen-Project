@@ -1,0 +1,243 @@
+body {
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(to bottom right, #808080 17%, #000000 100%);
+}
+.navigation-wrapper {
+    font-family: 'Baloo Bhai', cursive;
+    background-color: black;
+    height: 75px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation-wrapper i {
+    color:grey;
+}
+
+
+.navigation-wrapper a {
+    color: white; 
+    height: 20px;
+    width: 20px;
+    text-decoration: none;
+
+}
+
+.navigation-wrapper > .left-column > .logo img {
+    width: 160px;
+    height: 35px;
+}
+
+
+
+
+
+.navigation-wrapper > .center-column {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.navigation-wrapper > .center-column > .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+
+.navigation-wrapper > .center-column .explore {
+    color: yellow;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0px 0px 15px;
+    font-size: 13px;
+  
+
+}
+
+
+.navigation-wrapper > .center-column > .bottom >.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 15px 15px 15px;
+    
+
+}
+
+.navigation-wrapper > .center-column > .bottom > .nav-link > .spark a {
+    color: grey;
+}
+
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.navigation-wrapper > .right-column > .hourglass i {
+    font-size: 35px;
+    margin: 10px 0px 5px 20px;
+
+}
+
+
+.navigation-wrapper > .right-column > .button {
+    background-color:#404040;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0px 10px 20px;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .buttn {
+    background-color:#404040;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 0px 10px 20px;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .buttn i {
+   color: #00cc66;
+}
+
+
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        color: #bfbfbf;
+        padding: 50px 0px 0px 20px;
+}
+
+    .content-wrapper > .left{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 20px 100px;
+
+    }
+
+  
+
+    .content-wrapper > .left > .text-two h2{
+        line-height: 1.6;
+    }
+
+
+
+    .content-wrapper > .left > .text-one img{
+        padding: 10px 0px 0px 10px;
+    }
+
+
+
+
+    .content-wrapper > .image  img {
+        width: 600px;
+        height: 400px;
+        /* display: flex;
+        align-content: flex-end;
+        align-items: center; */
+    }
+
+    .content-wrapper > .image {
+        color: 	#D3D3D3;
+  
+    }
+
+    .content-wrapper > .left > .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: none;
+        text-align: center;
+        font-size: 25px;
+        cursor: pointer;
+        padding: 20px;
+
+    }
+
+    .content-wrapper > .left > .buttons > .left-button a{
+        padding: 20px 20px 20px 20px;
+        color: black;
+        background-color:#00cc66;
+        margin: 10px 0px 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 100;
+
+
+
+
+    }
+
+    .content-wrapper > .left > .buttons > .right-button a{
+        padding: 20px 20px 20px 20px;
+        background-color:black;
+        color: white;
+        margin: 10px 0px 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+
+
+
+    }
+
+    .toolbar-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        background-color:#404040;
+        height: 70px;        
+        border: 2px solid grey;
+        border-right: 2px solid grey;
+
+
+
+    }
+
+    .toolbar-wrapper > .buttin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        border-right: 2px solid grey;
+
+    }
+
+
+    .toolbar-wrapper > .buttin a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        cursor: pointer;
+
+
+   
+
+
+
+
+    
